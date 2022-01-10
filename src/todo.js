@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 export class Todo extends React.Component {
     constructor(props) {
       super(props);
@@ -28,27 +26,29 @@ export class Todo extends React.Component {
               Add Item #{this.state.items.length + 1}
             </button>
           </form>
+          <br/>
+          <h3>Marque las tareas completadas:</h3><br/>
           <input
             type="checkbox"/>
-          <label>Task1</label>
+          <label>Task1</label><br/>
           <input
             type="checkbox"/>
-          <label>Task2</label>
+          <label>Task2</label><br/>
           <input
             type="checkbox"/>
-          <label>Task3</label>
+          <label>Task3</label><br/>
           <input
             type="checkbox"/>
-          <label>Task4</label>
+          <label>Task4</label><br/>
           <input
             type="checkbox"/>
-          <label>Task5</label>
+          <label>Task5</label><br/>
           <input
             type="checkbox"/>
-          <label>Task6</label>
+          <label>Task6</label><br/>
           <input
             type="checkbox"/>
-          <label>Task7</label>        
+          <label>Task7</label><br/>        
         </div>
       );
     }
